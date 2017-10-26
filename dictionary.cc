@@ -291,7 +291,7 @@ void dictionary_add(const v8::FunctionCallbackInfo<v8::Value>& args)
         return;
     }
     */
-    ofs<<endl<<word;
+    ofs<<word<<std::endl;
     ofs.close();
     //fprintf(fp,"%s",pointer);
     //fclose(fp);
