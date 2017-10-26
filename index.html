@@ -8,7 +8,7 @@
 <body>
     <div class="tab">
         <button class="tablinks" onclick="openTab(event, 'Check')" id="defaultOpen">Spell Checker</button>
-        <button class="tablinks active" onclick="openTab(event, 'Add')">Add To Dictionary</button>
+        <button class="tablinks active" onclick="openTab(event, 'Addto')">Add To Dictionary</button>
     </div>
     
     <header>
@@ -18,9 +18,9 @@
         <div id="Check" class="tabcontent" style="display: none;">
             
             <h2> What do you want to check ? </h2>
-            <textarea id="text_field" placeholder="Enter Text" style="height: 130px; width: 761px; font-size: 10pt;" type="text">                </textarea>
+            <textarea id="text_field" style="height: 121px; width: 448px; font-size: 20pt;" type="text">Write here..</textarea>
             <br>
-            <input value="Submit" id="submit_btn" type="submit">
+            <input value="Check" class="yellow-btn" id="submit_btn" type="submit">
                 <br>
                 
                 <h3 id="answer">
@@ -29,28 +29,22 @@
                 
                 </div>
         
-        <div id="Add" class="tabcontent" style="display: block;">
+        <div id="Addto" class="tabcontent" style="display: block;">
             <h3>
                 Add to The default dictionary
             </h3>
             <h4 id="word_count_dictionary"> </h4>
-            <textarea id="word_field" placeholder="Only stag words" style="height: 27px; width: 767px; font-size: 10pt;" type="text">            </textarea>
+            <textarea id="word_field" style="height: 121px; width: 448px; font-size: 20pt;" type="text">Only single words</textarea>
             <br>
-            <input value="Submit" id="word_submit" type="submit">
+            <input value="Submit" class="yellow-btn" id="word_submit" type="submit">
                 <br>
                 <h3 id="append_list">
                 </h3>
                 </div>
         
     </div>
+    
     <script type="text/javascript" src="/main.js">
-        
         </script>
-    
-    
-    
-    
-    
-    
     
 </body></html>
