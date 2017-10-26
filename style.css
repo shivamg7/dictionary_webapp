@@ -9,6 +9,21 @@ body {
     margin-top: 60px;
 }
 
+#Check {
+    width: 454px;
+    border-radius: 14px;
+    background-color: #e2eef6;
+    float: left;
+    padding: 12px;
+}
+
+#Addto {
+    width: 454px;
+    border-radius: 14px;
+    background-color: #e2eef6;
+    float: left;
+    padding: 12px;
+}
 .center {
     text-align: center;
 }
@@ -23,6 +38,19 @@ body {
 
 .img-medium {
     height: 500px;
+}
+
+.yellow-btn
+{
+    float: right;
+    border-radius: 12px;
+    background-color: #ffbd00;
+    box-shadow: 2px 2px 0 0 rgba(0,0,0,0.1);
+    padding: 4px 44px;
+    font-size: 13px;
+    font-weight: 600;
+    color: #384c5e;
+    margin-top: 7px;
 }
 
 .container {
